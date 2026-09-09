@@ -61,6 +61,21 @@ function connect(token) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Conventional commit. Pass -m "feat(automations): ..." to say what actually changed;
+// otherwise scope is inferred from the staged paths.
+function message(when) {
+  const m = process.argv.indexOf('-m');
+  if (m !== -1 && process.argv[m + 1]) return process.argv[m + 1];
+  const files = sh('git', ['diff', '--cached', '--name-only']).toString().trim().split('\n');
+  const hit = (p) => files.some((f) => f.includes(p));
+  const scope = hit('automations.yaml') ? 'automations'
+    : hit('scripts.yaml') || hit('scenes.yaml') ? 'scripts'
+    : hit('lovelace') ? 'lovelace'
+    : hit('core.config_entries') || hit('core.device_registry') ? 'integrations'
+    : 'config';
+  return `chore(${scope}): sync HA config ${when}`;
+}
+
 async function main() {
   const token = await accessToken();
   const ha = connect(token);
@@ -121,7 +136,7 @@ async function main() {
   if (process.argv.includes('--no-commit')) return;
   sh('git', ['add', '-A']);
   if (sh('git', ['status', '--porcelain']).length === 0) return console.log('no config changes');
-  sh('git', ['commit', '-q', '-m', `config snapshot ${backup.date.slice(0, 16)}`]);
+  sh('git', ['commit', '-q', '-m', message(backup.date.slice(0, 16))]);
   console.log(sh('git', ['log', '-1', '--stat', '--oneline']).toString());
 }
 

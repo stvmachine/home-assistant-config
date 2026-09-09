@@ -1068,7 +1068,7 @@
         "id": "0a934aae1bbeae3e278f67aa5018a1ee",
         "has_entity_name": true,
         "labels": [],
-        "modified_at": "2026-09-09T05:23:30.010553+00:00",
+        "modified_at": "2026-09-09T05:27:16.465623+00:00",
         "name": null,
         "options": {
           "conversation": {
@@ -1080,7 +1080,7 @@
         "original_name": null,
         "platform": "cast",
         "suggested_object_id": null,
-        "supported_features": 152511,
+        "supported_features": 152461,
         "translation_key": null,
         "unique_id": "d18b38ad-0d83-8979-2ad5-bc37f5785193",
         "previous_unique_id": null,
