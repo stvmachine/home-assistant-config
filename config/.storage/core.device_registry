@@ -1,0 +1,737 @@
+{
+  "version": 1,
+  "minor_version": 10,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FAJ0KWEG83CA7DYBF6E76J"
+        ],
+        "config_entries_subentries": {
+          "01K1FAJ0KWEG83CA7DYBF6E76J": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [],
+        "created_at": "2025-07-31T04:06:31.300152+00:00",
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "655a6546fef3cc96c0202bd832616dfd",
+        "identifiers": [
+          [
+            "sun",
+            "01K1FAJ0KWEG83CA7DYBF6E76J"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": null,
+        "model": null,
+        "model_id": null,
+        "modified_at": "2025-07-31T04:06:31.300293+00:00",
+        "name_by_user": null,
+        "name": "Sun",
+        "primary_config_entry": "01K1FAJ0KWEG83CA7DYBF6E76J",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FAJ1VQXYWV4HRPCN32YA3Q"
+        ],
+        "config_entries_subentries": {
+          "01K1FAJ1VQXYWV4HRPCN32YA3Q": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [
+          [
+            "bluetooth",
+            "E4:5F:01:D1:A2:95"
+          ]
+        ],
+        "created_at": "2025-07-31T04:06:32.646696+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "usb:v1D6Bp0246d054F",
+        "id": "5e82a5d302cd6e18a5d67efd7aaf4cbf",
+        "identifiers": [],
+        "labels": [],
+        "manufacturer": "Raspberry Pi Trading Ltd",
+        "model": "bcm43438-bt",
+        "model_id": null,
+        "modified_at": "2025-07-31T04:06:32.646837+00:00",
+        "name_by_user": null,
+        "name": "hci0 (E4:5F:01:D1:A2:95)",
+        "primary_config_entry": "01K1FAJ1VQXYWV4HRPCN32YA3Q",
+        "serial_number": null,
+        "sw_version": "homeassistant",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FAJ1TSB9JAV75BWNYHTXWH"
+        ],
+        "config_entries_subentries": {
+          "01K1FAJ1TSB9JAV75BWNYHTXWH": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [],
+        "created_at": "2025-07-31T04:06:32.649413+00:00",
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "08f098cc584149d6e81c365c293c6bd1",
+        "identifiers": [
+          [
+            "hassio",
+            "core"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Core",
+        "model_id": null,
+        "modified_at": "2025-07-31T04:06:32.649553+00:00",
+        "name_by_user": null,
+        "name": "Home Assistant Core",
+        "primary_config_entry": "01K1FAJ1TSB9JAV75BWNYHTXWH",
+        "serial_number": null,
+        "sw_version": "2025.7.4",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FAJ1TSB9JAV75BWNYHTXWH"
+        ],
+        "config_entries_subentries": {
+          "01K1FAJ1TSB9JAV75BWNYHTXWH": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [],
+        "created_at": "2025-07-31T04:06:32.649786+00:00",
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "ff04b31050c60a1fcb10b3cad538d875",
+        "identifiers": [
+          [
+            "hassio",
+            "supervisor"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Supervisor",
+        "model_id": null,
+        "modified_at": "2025-07-31T23:10:36.295171+00:00",
+        "name_by_user": null,
+        "name": "Home Assistant Supervisor",
+        "primary_config_entry": "01K1FAJ1TSB9JAV75BWNYHTXWH",
+        "serial_number": null,
+        "sw_version": "2025.07.2",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FAJ1TSB9JAV75BWNYHTXWH"
+        ],
+        "config_entries_subentries": {
+          "01K1FAJ1TSB9JAV75BWNYHTXWH": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [],
+        "created_at": "2025-07-31T04:06:32.649993+00:00",
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "3a5ccfb9ec2291a9e53677586395585b",
+        "identifiers": [
+          [
+            "hassio",
+            "host"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Host",
+        "model_id": null,
+        "modified_at": "2025-07-31T04:06:32.650048+00:00",
+        "name_by_user": null,
+        "name": "Home Assistant Host",
+        "primary_config_entry": "01K1FAJ1TSB9JAV75BWNYHTXWH",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FAJ1TSB9JAV75BWNYHTXWH"
+        ],
+        "config_entries_subentries": {
+          "01K1FAJ1TSB9JAV75BWNYHTXWH": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [],
+        "created_at": "2025-07-31T04:06:32.650294+00:00",
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "04713e762d0825c0a32dff58f7056e90",
+        "identifiers": [
+          [
+            "hassio",
+            "OS"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Operating System",
+        "model_id": null,
+        "modified_at": "2025-07-31T04:06:32.650355+00:00",
+        "name_by_user": null,
+        "name": "Home Assistant Operating System",
+        "primary_config_entry": "01K1FAJ1TSB9JAV75BWNYHTXWH",
+        "serial_number": null,
+        "sw_version": "16.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FAJ1XBRDR2WH5J5NGJT8YK"
+        ],
+        "config_entries_subentries": {
+          "01K1FAJ1XBRDR2WH5J5NGJT8YK": [
+            null
+          ]
+        },
+        "configuration_url": "homeassistant://config/backup",
+        "connections": [],
+        "created_at": "2025-07-31T04:06:32.803982+00:00",
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "53faa4352fb55e42ccd09bf2bcc9226f",
+        "identifiers": [
+          [
+            "backup",
+            "backup_manager"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Backup",
+        "model_id": null,
+        "modified_at": "2025-07-31T04:06:32.804101+00:00",
+        "name_by_user": null,
+        "name": "Backup",
+        "primary_config_entry": "01K1FAJ1XBRDR2WH5J5NGJT8YK",
+        "serial_number": null,
+        "sw_version": "2025.7.4",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FAJEGNF09FJHCAGM7EG69M"
+        ],
+        "config_entries_subentries": {
+          "01K1FAJEGNF09FJHCAGM7EG69M": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [],
+        "created_at": "2025-07-31T04:06:46.173885+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5d2774dcd76929adef2593580547ab8e",
+        "identifiers": [
+          [
+            "cast",
+            "d18b38ad0d8389792ad5bc37f5785193"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Sony",
+        "model": "BRAVIA 4K GB ATV3",
+        "model_id": null,
+        "modified_at": "2025-07-31T04:06:46.174003+00:00",
+        "name_by_user": null,
+        "name": "Living Room TV",
+        "primary_config_entry": "01K1FAJEGNF09FJHCAGM7EG69M",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FAJEGNF09FJHCAGM7EG69M"
+        ],
+        "config_entries_subentries": {
+          "01K1FAJEGNF09FJHCAGM7EG69M": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [],
+        "created_at": "2025-07-31T04:06:46.225354+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2ce9f39436382cf89036b84d805718e8",
+        "identifiers": [
+          [
+            "cast",
+            "9f4a78cbef978f159645071164a54456"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Mini",
+        "model_id": null,
+        "modified_at": "2025-07-31T04:06:46.225485+00:00",
+        "name_by_user": null,
+        "name": "Loica",
+        "primary_config_entry": "01K1FAJEGNF09FJHCAGM7EG69M",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FAJEGNF09FJHCAGM7EG69M"
+        ],
+        "config_entries_subentries": {
+          "01K1FAJEGNF09FJHCAGM7EG69M": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [],
+        "created_at": "2025-07-31T04:06:46.245554+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "cc5315079fa19f96c6ead4d1a79b74af",
+        "identifiers": [
+          [
+            "cast",
+            "0c8bb6e3c3e1303262125b271695488b"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Google Inc.",
+        "model": "Google Home",
+        "model_id": null,
+        "modified_at": "2025-07-31T04:06:46.245676+00:00",
+        "name_by_user": null,
+        "name": "Selk'nam",
+        "primary_config_entry": "01K1FAJEGNF09FJHCAGM7EG69M",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FB7RJQ6CRE24TRH5PNKR6X"
+        ],
+        "config_entries_subentries": {
+          "01K1FB7RJQ6CRE24TRH5PNKR6X": [
+            null
+          ]
+        },
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "created_at": "2025-07-31T04:18:25.223601+00:00",
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "9b1818f1c0143bfdab005e2b8658b48b",
+        "identifiers": [
+          [
+            "met",
+            "01K1FB7RJQ6CRE24TRH5PNKR6X"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "model_id": null,
+        "modified_at": "2025-07-31T04:18:25.223815+00:00",
+        "name_by_user": null,
+        "name": "Forecast",
+        "primary_config_entry": "01K1FB7RJQ6CRE24TRH5PNKR6X",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "01K1FBTPGE3NX4VBKF8RY6FJ6Z"
+        ],
+        "config_entries_subentries": {
+          "01K1FBTPGE3NX4VBKF8RY6FJ6Z": [
+            null
+          ]
+        },
+        "configuration_url": "https://192-168-20-23.76a765e5f20443168784ec06963ab8fb.plex.direct:32400/web",
+        "connections": [],
+        "created_at": "2025-07-31T04:28:46.109004+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "56e637f2d4546d09e4f4f50c9bf919ce",
+        "identifiers": [
+          [
+            "plex",
+            "792526e8c217f72d220b37d7842a36ec0415b0a7"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Plex",
+        "model": "Plex Media Server",
+        "model_id": null,
+        "modified_at": "2025-07-31T04:28:57.859496+00:00",
+        "name_by_user": null,
+        "name": "Pot8o",
+        "primary_config_entry": "01K1FBTPGE3NX4VBKF8RY6FJ6Z",
+        "serial_number": null,
+        "sw_version": "1.41.9.9961-46083195d",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FBTPGE3NX4VBKF8RY6FJ6Z"
+        ],
+        "config_entries_subentries": {
+          "01K1FBTPGE3NX4VBKF8RY6FJ6Z": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [],
+        "created_at": "2025-07-31T04:30:49.158392+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "3d3966736c417de8f2bf9229c418ea3c",
+        "identifiers": [
+          [
+            "plex",
+            "fe03b9bd7b4ce37c-com-plexapp-android"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Android",
+        "model": "Plex for Android (TV)",
+        "model_id": null,
+        "modified_at": "2025-07-31T04:30:49.158613+00:00",
+        "name_by_user": null,
+        "name": "Plex (Plex for Android (TV) - BRAVIA 4K GB ATV3)",
+        "primary_config_entry": "01K1FBTPGE3NX4VBKF8RY6FJ6Z",
+        "serial_number": null,
+        "sw_version": "10.30.2.3548",
+        "via_device_id": "56e637f2d4546d09e4f4f50c9bf919ce"
+      },
+      {
+        "area_id": "office",
+        "config_entries": [
+          "01K1FFH6PJB5SZC0N5XF9CR67C"
+        ],
+        "config_entries_subentries": {
+          "01K1FFH6PJB5SZC0N5XF9CR67C": [
+            null
+          ]
+        },
+        "configuration_url": "https://192.168.20.23:631/printers/Brother_HL_1110_series",
+        "connections": [],
+        "created_at": "2025-07-31T05:33:27.756293+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "ae52dc0a67213154e771b7e90ff15c42",
+        "identifiers": [
+          [
+            "ipp",
+            "d5f658bc-e0f1-37d1-642c-d0ecadd5ebfe"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Brother",
+        "model": "HL-1110 series",
+        "model_id": null,
+        "modified_at": "2025-07-31T05:33:53.721860+00:00",
+        "name_by_user": null,
+        "name": "Brother HL-1110 series CUPS",
+        "primary_config_entry": "01K1FFH6PJB5SZC0N5XF9CR67C",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1H95XVH9G4S23J3WE0TZVB8"
+        ],
+        "config_entries_subentries": {
+          "01K1H95XVH9G4S23J3WE0TZVB8": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [],
+        "created_at": "2025-07-31T22:20:55.538313+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "603e892d98977fe037a9f4a7fe775e0d",
+        "identifiers": [
+          [
+            "mobile_app",
+            "013355c4935c711e"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "samsung",
+        "model": "SM-S906E",
+        "model_id": null,
+        "modified_at": "2025-07-31T22:20:55.538539+00:00",
+        "name_by_user": null,
+        "name": "Dada Phone",
+        "primary_config_entry": "01K1H95XVH9G4S23J3WE0TZVB8",
+        "serial_number": null,
+        "sw_version": "35",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01K1FBTPGE3NX4VBKF8RY6FJ6Z"
+        ],
+        "config_entries_subentries": {
+          "01K1FBTPGE3NX4VBKF8RY6FJ6Z": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [],
+        "created_at": "2025-08-01T01:27:05.254916+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "01cead0b64a8c4cdcdc25557bc84057f",
+        "identifiers": [
+          [
+            "plex",
+            "07fw4hv313fittlheci5ba6o"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Chromecast",
+        "model": "Plex Cast",
+        "model_id": null,
+        "modified_at": "2025-08-01T01:27:05.255124+00:00",
+        "name_by_user": null,
+        "name": "Plex (Plex Cast - Chromecast)",
+        "primary_config_entry": "01K1FBTPGE3NX4VBKF8RY6FJ6Z",
+        "serial_number": null,
+        "sw_version": "4.54.1",
+        "via_device_id": "56e637f2d4546d09e4f4f50c9bf919ce"
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "01M2241HY0WMJAFD0XZW10ZRPS"
+        ],
+        "config_entries_subentries": {
+          "01M2241HY0WMJAFD0XZW10ZRPS": [
+            null
+          ]
+        },
+        "configuration_url": "http://192.168.20.16/net/net/airprint.html",
+        "connections": [],
+        "created_at": "2026-09-09T03:40:34.389746+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "792f01836a2d58b6be431a95e7277a46",
+        "identifiers": [
+          [
+            "ipp",
+            "e3248000-80ce-11db-8000-849e56d2d119"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Brother",
+        "model": "HL-L2400DW",
+        "model_id": null,
+        "modified_at": "2026-09-09T03:40:39.569529+00:00",
+        "name_by_user": null,
+        "name": "Brother HL-L2400DW",
+        "primary_config_entry": "01M2241HY0WMJAFD0XZW10ZRPS",
+        "serial_number": null,
+        "sw_version": "1.22",
+        "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "01M2242FPPWCPHZ6FAVBC6SVJ7"
+        ],
+        "config_entries_subentries": {
+          "01M2242FPPWCPHZ6FAVBC6SVJ7": [
+            null
+          ]
+        },
+        "configuration_url": "http://192.168.20.16/",
+        "connections": [
+          [
+            "mac",
+            "84:9e:56:d2:d1:19"
+          ]
+        ],
+        "created_at": "2026-09-09T03:41:04.703659+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2afc77bed0c555f358e5c03e63e703cc",
+        "identifiers": [
+          [
+            "brother",
+            "E83115E5N614210"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Brother",
+        "model": "HL-L2400DW",
+        "model_id": null,
+        "modified_at": "2026-09-09T03:41:08.479408+00:00",
+        "name_by_user": null,
+        "name": "HL-L2400DW",
+        "primary_config_entry": "01M2242FPPWCPHZ6FAVBC6SVJ7",
+        "serial_number": "E83115E5N614210",
+        "sw_version": "1.22",
+        "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "01M22434HP4T93ZN5KJTS4V0HA"
+        ],
+        "config_entries_subentries": {
+          "01M22434HP4T93ZN5KJTS4V0HA": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "d0:db:b7:58:da:75"
+          ],
+          [
+            "upnp",
+            "uuid:2c679f49-a4fc-46b3-97af-33346a4adcd7"
+          ]
+        ],
+        "created_at": "2026-09-09T03:41:26.305725+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5d4e565109516c9839c98ae175add5bb",
+        "identifiers": [
+          [
+            "upnp",
+            "uuid:2c679f49-a4fc-46b3-97af-33346a4adcd7::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ],
+          [
+            "upnp_serial_number",
+            "088525224605225"
+          ],
+          [
+            "upnp_host",
+            "192.168.20.1"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "NetComm Wireless",
+        "model": "NF20MESH",
+        "model_id": null,
+        "modified_at": "2026-09-09T03:41:36.666994+00:00",
+        "name_by_user": null,
+        "name": "CloudMesh Gateway",
+        "primary_config_entry": "01M22434HP4T93ZN5KJTS4V0HA",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "01M229W12WHR01TM7Q3TY4PMTA"
+        ],
+        "config_entries_subentries": {
+          "01M229W12WHR01TM7Q3TY4PMTA": [
+            null
+          ]
+        },
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "ac:d5:64:4e:a4:ca"
+          ]
+        ],
+        "created_at": "2026-09-09T05:22:24.337029+00:00",
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a8dee198ae61bba644093c6f82c4a6e1",
+        "identifiers": [
+          [
+            "androidtv_remote",
+            "ac:d5:64:4e:a4:ca"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Sony",
+        "model": "BRAVIA 4K GB ATV3",
+        "model_id": null,
+        "modified_at": "2026-09-09T05:22:24.337236+00:00",
+        "name_by_user": null,
+        "name": "Living Room TV",
+        "primary_config_entry": "01M229W12WHR01TM7Q3TY4PMTA",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}

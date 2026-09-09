@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "esteban_campos",
+        "name": "Esteban Campos",
+        "user_id": "0e24ec022b2e42d79b1a97de8b716a42",
+        "device_trackers": [
+          "device_tracker.dada_phone"
+        ]
+      }
+    ]
+  }
+}

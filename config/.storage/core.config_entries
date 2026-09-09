@@ -1,0 +1,505 @@
+{
+  "version": 1,
+  "minor_version": 5,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "created_at": "2025-07-31T04:06:31.292139+00:00",
+        "data": {},
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "sun",
+        "entry_id": "01K1FAJ0KWEG83CA7DYBF6E76J",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:06:31.292150+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "subentries": [],
+        "title": "Sun",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:06:32.537617+00:00",
+        "data": {},
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "hassio",
+        "entry_id": "01K1FAJ1TSB9JAV75BWNYHTXWH",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:06:32.537628+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "subentries": [],
+        "title": "Supervisor",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:06:32.567854+00:00",
+        "data": {},
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "bluetooth",
+        "entry_id": "01K1FAJ1VQXYWV4HRPCN32YA3Q",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:06:32.567866+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "subentries": [],
+        "title": "Raspberry Pi Trading Ltd bcm43438-bt (E4:5F:01:D1:A2:95)",
+        "unique_id": "E4:5F:01:D1:A2:95",
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:06:32.570236+00:00",
+        "data": {},
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "go2rtc",
+        "entry_id": "01K1FAJ1VT9W5JVZW8ST95EB56",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:06:32.570255+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "subentries": [],
+        "title": "go2rtc",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:06:32.620027+00:00",
+        "data": {},
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "backup",
+        "entry_id": "01K1FAJ1XBRDR2WH5J5NGJT8YK",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:06:32.620040+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "subentries": [],
+        "title": "Backup",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:06:32.887707+00:00",
+        "data": {},
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "raspberry_pi",
+        "entry_id": "01K1FAJ25QZV5CBXK7S9KH37GY",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:06:32.887719+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "subentries": [],
+        "title": "Raspberry Pi",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:06:45.525370+00:00",
+        "data": {
+          "ignore_cec": [],
+          "known_hosts": [],
+          "user_id": "c3990a197dc34d1ca43410f92b68e959",
+          "uuid": []
+        },
+        "disabled_by": null,
+        "discovery_keys": {
+          "zeroconf": [
+            {
+              "domain": "zeroconf",
+              "key": [
+                "_googlecast._tcp.local.",
+                "BRAVIA-4K-GB-ATV3-d18b38ad0d8389792ad5bc37f5785193._googlecast._tcp.local."
+              ],
+              "version": 1
+            }
+          ]
+        },
+        "domain": "cast",
+        "entry_id": "01K1FAJEGNF09FJHCAGM7EG69M",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:06:45.530776+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "subentries": [],
+        "title": "Google Cast",
+        "unique_id": "cast",
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:06:45.560394+00:00",
+        "data": {},
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "rpi_power",
+        "entry_id": "01K1FAJEHRNECPF4S2MGZYSYDV",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:06:45.560406+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "subentries": [],
+        "title": "Raspberry Pi Power Supply Checker",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:18:23.841842+00:00",
+        "data": {},
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "shopping_list",
+        "entry_id": "01K1FB7RF1Y7R60KM6RXB14ZDZ",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:18:23.841863+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "subentries": [],
+        "title": "Shopping list",
+        "unique_id": "shopping_list",
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:18:23.959571+00:00",
+        "data": {
+          "track_home": true
+        },
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "met",
+        "entry_id": "01K1FB7RJQ6CRE24TRH5PNKR6X",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:18:23.959590+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "subentries": [],
+        "title": "Home",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:18:23.984407+00:00",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "google_translate",
+        "entry_id": "01K1FB7RKGXV6AEE7TGM4GRGPZ",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:18:23.984427+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "subentries": [],
+        "title": "Google Translate text-to-speech",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:18:24.772079+00:00",
+        "data": {},
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "radio_browser",
+        "entry_id": "01K1FB7SC3WG428HJ3Q1FCK1FZ",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:18:24.772099+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "subentries": [],
+        "title": "Radio Browser",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T04:28:44.430595+00:00",
+        "data": {
+          "server": "Pot8o",
+          "server_config": {
+            "client_id": "5a045527-6982-4c9b-89fe-64e23f5cbc3e",
+            "token": "6QEthcpzMTpmFH8qx-zo",
+            "url": "https://192-168-20-23.76a765e5f20443168784ec06963ab8fb.plex.direct:32400",
+            "verify_ssl": true
+          },
+          "server_id": "792526e8c217f72d220b37d7842a36ec0415b0a7"
+        },
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "plex",
+        "entry_id": "01K1FBTPGE3NX4VBKF8RY6FJ6Z",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T04:28:44.435295+00:00",
+        "options": {
+          "media_player": {}
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "subentries": [],
+        "title": "https://192-168-20-23.76a765e5f20443168784ec06963ab8fb.plex.direct:32400",
+        "unique_id": "792526e8c217f72d220b37d7842a36ec0415b0a7",
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T05:33:27.634905+00:00",
+        "data": {
+          "base_path": "/printers/Brother_HL_1110_series",
+          "host": "192.168.20.23",
+          "name": "Brother HL-1110 series @ Esteban’s MacBook Pro",
+          "port": 631,
+          "ssl": true,
+          "uuid": "d5f658bc-e0f1-37d1-642c-d0ecadd5ebfe",
+          "verify_ssl": false
+        },
+        "disabled_by": null,
+        "discovery_keys": {
+          "zeroconf": [
+            {
+              "domain": "zeroconf",
+              "key": [
+                "_ipps._tcp.local.",
+                "Brother HL-1110 series @ Esteban’s MacBook Pro._ipps._tcp.local."
+              ],
+              "version": 1
+            }
+          ]
+        },
+        "domain": "ipp",
+        "entry_id": "01K1FFH6PJB5SZC0N5XF9CR67C",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T05:33:27.634914+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "subentries": [],
+        "title": "Brother HL-1110 series @ Esteban’s MacBook Pro",
+        "unique_id": "d5f658bc-e0f1-37d1-642c-d0ecadd5ebfe",
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-31T22:20:55.537564+00:00",
+        "data": {
+          "app_data": {
+            "push_token": "eIrw-5oASN63UBRgEm25Yd:APA91bHTuqje2rJwavmQqWeQjmtgIOsYEWC25SSMCn80GP0b0b6TUtGk9f7kVo_L7D8DhSIBf9LMWVZc6dpgYuqKBB1v_271FrKNBc8Zl36HZqEB_9Jg1yY",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_websocket_channel": true
+          },
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2025.7.1-full (16758)",
+          "device_id": "013355c4935c711e",
+          "device_name": "Dada Phone",
+          "manufacturer": "samsung",
+          "model": "SM-S906E",
+          "os_name": "Android",
+          "os_version": "35",
+          "supports_encryption": false,
+          "user_id": "0e24ec022b2e42d79b1a97de8b716a42",
+          "webhook_id": "066117dec186e66b031af0953eda7db02df161d7543b7877403f24bfeae2d053"
+        },
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "mobile_app",
+        "entry_id": "01K1H95XVH9G4S23J3WE0TZVB8",
+        "minor_version": 1,
+        "modified_at": "2025-07-31T22:20:55.537582+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "subentries": [],
+        "title": "Dada Phone",
+        "unique_id": "io.homeassistant.companion.android-013355c4935c711e",
+        "version": 1
+      },
+      {
+        "created_at": "2026-09-09T03:39:56.081529+00:00",
+        "data": {
+          "llm_hass_api": "assist"
+        },
+        "disabled_by": null,
+        "discovery_keys": {},
+        "domain": "mcp_server",
+        "entry_id": "01M2240DSH2PSENN0JWENDT79K",
+        "minor_version": 1,
+        "modified_at": "2026-09-09T03:39:56.081542+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "subentries": [],
+        "title": "Assist",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2026-09-09T03:40:33.088970+00:00",
+        "data": {
+          "base_path": "/ipp/print",
+          "host": "192.168.20.16",
+          "name": "Brother HL-L2400DW",
+          "port": 631,
+          "ssl": false,
+          "uuid": "e3248000-80ce-11db-8000-849e56d2d119",
+          "verify_ssl": false
+        },
+        "disabled_by": null,
+        "discovery_keys": {
+          "zeroconf": [
+            {
+              "domain": "zeroconf",
+              "key": [
+                "_ipp._tcp.local.",
+                "Brother HL-L2400DW._ipp._tcp.local."
+              ],
+              "version": 1
+            }
+          ]
+        },
+        "domain": "ipp",
+        "entry_id": "01M2241HY0WMJAFD0XZW10ZRPS",
+        "minor_version": 1,
+        "modified_at": "2026-09-09T03:40:33.088979+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "subentries": [],
+        "title": "Brother HL-L2400DW",
+        "unique_id": "e3248000-80ce-11db-8000-849e56d2d119",
+        "version": 1
+      },
+      {
+        "created_at": "2026-09-09T03:41:03.574863+00:00",
+        "data": {
+          "host": "192.168.20.16",
+          "type": "laser"
+        },
+        "disabled_by": null,
+        "discovery_keys": {
+          "zeroconf": [
+            {
+              "domain": "zeroconf",
+              "key": [
+                "_printer._tcp.local.",
+                "Brother HL-L2400DW._printer._tcp.local."
+              ],
+              "version": 1
+            }
+          ]
+        },
+        "domain": "brother",
+        "entry_id": "01M2242FPPWCPHZ6FAVBC6SVJ7",
+        "minor_version": 1,
+        "modified_at": "2026-09-09T03:41:03.574872+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "subentries": [],
+        "title": "HL-L2400DW E83115E5N614210",
+        "unique_id": "e83115e5n614210",
+        "version": 1
+      },
+      {
+        "created_at": "2026-09-09T03:41:24.919078+00:00",
+        "data": {
+          "host": "192.168.20.1",
+          "location": "http://192.168.20.1:5431/rootDesc.xml",
+          "mac_address": "d0:db:b7:58:da:75",
+          "original_udn": "uuid:2c679f49-a4fc-46b3-97af-33346a4adcd7",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "udn": "uuid:2c679f49-a4fc-46b3-97af-33346a4adcd7"
+        },
+        "disabled_by": null,
+        "discovery_keys": {
+          "ssdp": [
+            {
+              "domain": "ssdp",
+              "key": "uuid:2c679f49-a4fc-46b3-97af-33346a4adcd7",
+              "version": 1
+            }
+          ]
+        },
+        "domain": "upnp",
+        "entry_id": "01M22434HP4T93ZN5KJTS4V0HA",
+        "minor_version": 1,
+        "modified_at": "2026-09-09T03:41:24.919094+00:00",
+        "options": {
+          "force_poll": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "subentries": [],
+        "title": "CloudMesh Gateway",
+        "unique_id": "uuid:2c679f49-a4fc-46b3-97af-33346a4adcd7::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "version": 1
+      },
+      {
+        "created_at": "2026-09-09T05:22:23.452383+00:00",
+        "data": {
+          "host": "192.168.20.3",
+          "mac": "AC:D5:64:4E:A4:CA",
+          "name": "Living Room TV"
+        },
+        "disabled_by": null,
+        "discovery_keys": {
+          "zeroconf": [
+            {
+              "domain": "zeroconf",
+              "key": [
+                "_androidtvremote2._tcp.local.",
+                "Living Room TV._androidtvremote2._tcp.local."
+              ],
+              "version": 1
+            }
+          ]
+        },
+        "domain": "androidtv_remote",
+        "entry_id": "01M229W12WHR01TM7Q3TY4PMTA",
+        "minor_version": 1,
+        "modified_at": "2026-09-09T05:22:23.452401+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "subentries": [],
+        "title": "Living Room TV",
+        "unique_id": "ac:d5:64:4e:a4:ca",
+        "version": 1
+      }
+    ]
+  }
+}
