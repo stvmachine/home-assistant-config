@@ -1,58 +1,66 @@
-# Home Assistant MCP Setup
+# Home Assistant MCP Setup for OMO (Oh My OpenCode)
 
 ## ✅ Installed
 - `hass-mcp` v0.1.7 - MCP server for Home Assistant control
+- Configuration added to `~/.config/opencode/opencode.jsonc`
 
 ## 🔑 Step 1: Create Long-Lived Access Token
 
-1. Go to http://192.168.20.30:8123/profile/security
-2. Scroll down to **"Long-Lived Access Tokens"**
-3. Click **"Create Token"**
-4. Name it: `MCP Server`
-5. Copy the token (you'll only see it once!)
+The HA security page should be open in your browser. If not, go to:
+**http://192.168.20.30:8123/profile/security**
 
-## 📝 Step 2: Configure MCP Server for Claude Code
+1. Scroll down to **"Long-Lived Access Tokens"**
+2. Click **"Create Token"**
+3. Name it: `MCP Server`
+4. **Copy the token** (you'll only see it once!)
 
-Create or edit your Claude Code MCP configuration file:
+## 📝 Step 2: Add Token to OMO Configuration
 
-**macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+I've already added the MCP server config to `~/.config/opencode/opencode.jsonc`.
 
-Add this configuration:
+Now you need to:
 
+1. Open the config file:
+   ```bash
+   code ~/.config/opencode/opencode.jsonc
+   ```
+
+2. Find the `homeassistant` section (around line 63)
+
+3. Replace `PASTE_YOUR_LONG_LIVED_TOKEN_HERE` with your actual token
+
+4. Change `"enabled": false` to `"enabled": true`
+
+The config should look like:
 ```json
-{
-  "mcpServers": {
-    "homeassistant": {
-      "command": "hass-mcp",
-      "env": {
-        "HASS_URL": "http://192.168.20.30:8123",
-        "HASS_TOKEN": "YOUR_LONG_LIVED_TOKEN_HERE"
-      }
-    }
-  }
+"homeassistant": {
+  "type": "local",
+  "command": ["hass-mcp"],
+  "environment": {
+    "HASS_URL": "http://192.168.20.30:8123",
+    "HASS_TOKEN": "eyJhbGc..."  ← your actual token
+  },
+  "enabled": true
 }
 ```
 
-Replace `YOUR_LONG_LIVED_TOKEN_HERE` with the token from Step 1.
+## 🔄 Step 3: Restart OMO
 
-## 🔄 Step 3: Restart Claude Code
-
-After saving the config, restart Claude Code for the MCP server to load.
+After saving the config, restart your OMO session for the MCP server to load.
 
 ## 🎯 What You'll Be Able to Do
 
-Once configured, you can:
-- **Update scripts.yaml directly** via MCP commands
-- **Call Home Assistant services** (turn on/off lights, trigger scripts, etc.)
-- **Read entity states** (check if phone is home, get sensor values)
-- **Trigger automations**
-- **Update configurations** without manual file copying
+Once enabled, I can:
+- ✅ **Upload scripts.yaml directly** to HA (no manual copying!)
+- ✅ **Call HA services** (trigger scripts, control devices)
+- ✅ **Read entity states** (check phone status, sensors)
+- ✅ **Manage automations and configurations**
 
-## 🧪 Test It
+## 🧪 Quick Test
 
 After restart, try asking:
-- "Upload the scripts.yaml to Home Assistant"
-- "What's the state of sensor.dada_phone_ringer_mode?"
-- "Turn on script.find_dada_phone"
+```
+"Upload the scripts.yaml to Home Assistant"
+```
 
-The MCP server provides direct Home Assistant control! 🏠
+The MCP server will handle it directly! 🏠
