@@ -1,0 +1,70 @@
+find_dada_phone:
+  alias: Find Dada Phone
+  description: Ring Dada's phone at full volume to help locate it
+  icon: mdi:phone-ring
+  variables:
+    ringer: "{{ states('sensor.dada_phone_ringer_mode') }}"
+  sequence:
+    # Set ringer to normal mode
+    - data:
+        message: command_ringer_mode
+        data:
+          command: normal
+          priority: high
+      action: notify.mobile_app_dada_phone
+    # Send notification with alarm sound
+    - data:
+        message: " "
+        title: Find My Phone
+        data:
+          ttl: 0
+          tag: Find My Phone
+          priority: high
+          channel: alarm_stream
+      action: notify.mobile_app_dada_phone
+    # Wait 2 seconds
+    - delay: 2
+    # Restore original ringer mode
+    - data:
+        message: command_ringer_mode
+        data:
+          command: "{{ ringer }}"
+          priority: high
+      action: notify.mobile_app_dada_phone
+  mode: single
+
+# Template for wife's phone - update entity names once her phone is added to HA
+# find_wife_phone:
+#   alias: Find Wife Phone
+#   description: Ring wife's phone at full volume to help locate it
+#   icon: mdi:phone-ring
+#   variables:
+#     ringer: "{{ states('sensor.WIFE_PHONE_ringer_mode') }}"
+#   sequence:
+#     # Set ringer to normal mode
+#     - data:
+#         message: command_ringer_mode
+#         data:
+#           command: normal
+#           priority: high
+#       action: notify.mobile_app_WIFE_PHONE
+#     # Send notification with alarm sound
+#     - data:
+#         message: " "
+#         title: Find My Phone
+#         data:
+#           ttl: 0
+#           tag: Find My Phone
+#           priority: high
+#           channel: alarm_stream
+#       action: notify.mobile_app_WIFE_PHONE
+#     # Wait 2 seconds
+#     - delay: 2
+#     # Restore original ringer mode
+#     - data:
+#         message: command_ringer_mode
+#         data:
+#           command: "{{ ringer }}"
+#           priority: high
+#       action: notify.mobile_app_WIFE_PHONE
+#   mode: single
