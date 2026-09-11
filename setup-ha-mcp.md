@@ -1,8 +1,8 @@
-# Home Assistant MCP Setup for OMO (Oh My OpenCode)
+# Home Assistant MCP Setup for Oh My Pi
 
 ## ✅ Installed
 - `hass-mcp` v0.1.7 - MCP server for Home Assistant control
-- Configuration added to `~/.config/opencode/opencode.jsonc`
+- Configuration added to `~/.config/opencode/opencode.jsonc` (Oh My Pi config)
 
 ## 🔑 Step 1: Create Long-Lived Access Token
 
@@ -14,9 +14,9 @@ The HA security page should be open in your browser. If not, go to:
 3. Name it: `MCP Server`
 4. **Copy the token** (you'll only see it once!)
 
-## 📝 Step 2: Add Token to OMO Configuration
+## 📝 Step 2: Add Token to Oh My Pi Configuration
 
-I've already added the MCP server config to `~/.config/opencode/opencode.jsonc`.
+I've already added the MCP server config to your Oh My Pi configuration at `~/.config/opencode/opencode.jsonc`.
 
 Now you need to:
 
@@ -44,9 +44,9 @@ The config should look like:
 }
 ```
 
-## 🔄 Step 3: Restart OMO
+## 🔄 Step 3: Restart Oh My Pi
 
-After saving the config, restart your OMO session for the MCP server to load.
+After saving the config, restart your Oh My Pi session for the MCP server to load.
 
 ## 🎯 What You'll Be Able to Do
 
